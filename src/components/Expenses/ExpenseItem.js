@@ -7,7 +7,6 @@ import "./ExpenseItem.css";
 const ExpenseItem = ({ date, title, amount }) => {
   const [expenseTitle, setExpenseTitle] = useState(title);
 
-  console.log("ExpenseItem Evaluated");
   const clickHandler = () => {
     setExpenseTitle("Updated");
   };
